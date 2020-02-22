@@ -27,3 +27,24 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.cat-1{
+    background-image: linear-gradient(to top,orange,yellow);
+}
+.cat-2{
+    background-image: linear-gradient(to bottom,rgb(247, 75, 155),rgb(241, 31, 111));
+}
+.cat-3{
+    background-image: linear-gradient(to top,rgb(31, 63, 245),rgb(81, 116, 231));
+}
+.cat-1, .cat-2, .cat-3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.category h1{
+    width: 100px;
+    color: white;
+}
