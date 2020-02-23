@@ -28,13 +28,13 @@
     cursor: pointer;
 }
 .cat-1{
-    background-image: linear-gradient(to top,orange,yellow);
+    background-image: linear-gradient(to top,rgb(255, 119, 8),rgb(240, 145, 57));
 }
 .cat-2{
-    background-image: linear-gradient(to bottom,rgb(247, 75, 155),rgb(241, 31, 111));
+    background-image: linear-gradient(to bottom,rgb(235, 82, 72),rgb(252, 14, 65));
 }
 .cat-3{
-    background-image: linear-gradient(to top,rgb(31, 63, 245),rgb(81, 116, 231));
+    background-image: linear-gradient(to top,rgb(181, 16, 247),rgb(245, 13, 214));
 }
 .cat-1, .cat-2, .cat-3{
     padding: 10px 30px;
@@ -47,4 +47,26 @@
 .category h1{
     width: 100px;
     color: white;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#contact{
+    height: 300px;
+}
+#contact h6{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
